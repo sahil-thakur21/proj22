@@ -1,8 +1,8 @@
 FROM eclipse-temurin:17-jdk
 
-COPY target/proj22.jar /user/app
-
 WORKDIR /user/app
+
+COPY target/proj22.jar /user/app
 
 EXPOSE 9090
 
